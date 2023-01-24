@@ -22,7 +22,7 @@
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
 }
 
 html{
@@ -112,7 +112,6 @@ img{
 }
 
 /* ========================= MEDIA QUERRIES (MEDIUM DEVICE) ==================== */
-
 @media screen and (max-width: 1024px) {
   .container{
     width: var(--container-width-md);
@@ -124,7 +123,6 @@ img{
 }
 
 /* ========================= MEDIA QUERRIES (SMALL DEVICE) ==================== */
-
 @media screen and (max-width: 600px) {
   .container{
     width: var(--container-width-sm);
